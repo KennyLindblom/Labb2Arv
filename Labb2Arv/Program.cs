@@ -6,6 +6,7 @@ namespace Labb2Arv
     {
         static void Main(string[] args)
         {
+
             
             
         }
