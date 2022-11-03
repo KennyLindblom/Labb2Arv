@@ -28,7 +28,7 @@ namespace Labb2Arv
         }
         public void getName()
         {
-            Console.WriteLine($" this animals name is {Name} ");
+            Console.WriteLine($"This animals name is {Name} ");
 
         }
 
@@ -44,7 +44,7 @@ namespace Labb2Arv
 
         public void getCost()
         {
-            Console.WriteLine($"The animal {Name} has cost the zoo {Cost} to buy.... ");
+            Console.WriteLine($"The animal {Name} has cost the zoo {Cost} kr to buy.... ");
         }
         
 
