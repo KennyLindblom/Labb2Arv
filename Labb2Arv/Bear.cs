@@ -23,6 +23,9 @@ namespace Labb2Arv
             Console.WriteLine($"The bear {Name} makes the sound rawrawrwa ");
         }
 
+        
+
+
 
     }
 }

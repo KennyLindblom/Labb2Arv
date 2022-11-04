@@ -19,6 +19,8 @@ namespace Labb2Arv
             Bear bear = new Bear();
             bear.makeSound();
             bear.getAge();
+            bear.getOrigin();
+            bear.getGender();
             
             
         }
