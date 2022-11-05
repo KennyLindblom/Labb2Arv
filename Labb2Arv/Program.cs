@@ -45,6 +45,7 @@ namespace Labb2Arv
                     bear.getOrigin();
                     bear.getGender();
                     bear.getCost();
+                    bear.getTexture();
                     Console.ReadKey();
                     Console.Clear();
                     mainMenu();
@@ -83,7 +84,7 @@ namespace Labb2Arv
                     Console.WriteLine("How old is the animal? ");
                     int addAnimalAge = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("How much did it cost to buy this animal? ");
-                    float addAnimalCost = Convert.ToInt32(Console.ReadLine());
+                    float addAnimalCost = float.Parse(Console.ReadLine());
                     Console.WriteLine("What is the name of this animal? ");
                     string addAnimalName = Console.ReadLine();
                     Console.WriteLine("Is it a Male or a Female? ");
@@ -98,10 +99,12 @@ namespace Labb2Arv
                     mainMenu();
                     break;
 
+
                 case 6:
                     Console.WriteLine("Application will close....... ");
                     Environment.Exit(0);
                     break;
+
 
                 default:
                     Console.WriteLine("Invalid choice"); 
