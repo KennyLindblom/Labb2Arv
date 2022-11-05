@@ -47,6 +47,10 @@ namespace Labb2Arv
             Console.WriteLine($"The animal {Name} has cost the zoo {Cost} kr to buy.... ");
         }
         
+        public void newAnimalRegister()
+        {
+            Console.WriteLine($"{Name} that cost {Cost} to buy and has an age of {Age} and is a {Gender} from {Origin} has been added to the system....   " );
+        }
 
     }
 }
