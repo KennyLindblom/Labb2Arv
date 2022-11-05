@@ -7,16 +7,7 @@ namespace Labb2Arv
         static void Main(string[] args)
         {
            
-
             mainMenu();
-
-
-
-
-
-
-
-
         }
 
         public static void mainMenu()
@@ -26,6 +17,7 @@ namespace Labb2Arv
             Console.WriteLine("3) PolarBear ");
             Console.WriteLine("4) PandaBear ");
             Console.WriteLine("5) Register new Animal ");
+            Console.WriteLine("6) Close application");
 
             Animals animals = new Animals();
 
@@ -91,7 +83,7 @@ namespace Labb2Arv
                     Console.WriteLine("How old is the animal? ");
                     int addAnimalAge = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("How much did it cost to buy this animal? ");
-                    int addAnimalCost = Convert.ToInt32(Console.ReadLine());
+                    float addAnimalCost = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("What is the name of this animal? ");
                     string addAnimalName = Console.ReadLine();
                     Console.WriteLine("Is it a Male or a Female? ");
@@ -104,6 +96,11 @@ namespace Labb2Arv
                     Console.ReadKey();
                     Console.Clear();
                     mainMenu();
+                    break;
+
+                case 6:
+                    Console.WriteLine("Application will close....... ");
+                    Environment.Exit(0);
                     break;
 
                 default:

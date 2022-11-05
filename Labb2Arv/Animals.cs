@@ -49,7 +49,7 @@ namespace Labb2Arv
         
         public void newAnimalRegister()
         {
-            Console.WriteLine($"{Name} that cost {Cost} to buy and has an age of {Age} and is a {Gender} from {Origin} has been added to the system....   " );
+            Console.WriteLine($"{Name} that cost {Cost} kr to buy and has an age of {Age} and is a {Gender} from {Origin} has been added to the system....   " );
         }
 
     }
